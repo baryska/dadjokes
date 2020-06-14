@@ -2,7 +2,7 @@
   <div class="container">
     <div class="joke">
       <div class="joke__body">
-        <img class="joke__user" :src="image" />
+        <img class="joke__user" :src="'./assets/img/' + user +'.png'" />
         <p class="joke__text">{{ joke }}</p>
       </div>
       <div class="joke__likes">
