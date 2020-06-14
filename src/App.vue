@@ -7,7 +7,6 @@
       v-bind:upLikes="vtip.upLikes"
       v-bind:downLikes="vtip.downLikes"
       v-bind:user="vtip.user"
-      v-bind:image="vtip.image"
       v-bind:key="index"
     />
   </div>
