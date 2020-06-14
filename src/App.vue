@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="ahoj">Tohle je teda dost šílený úkol...</p>
+    <img src="assets/img/break.jpg" alt="break" height="150px" />
     <Myjoke
       v-for="(vtip, index) in jokes"
       v-bind:joke="vtip.joke"
@@ -92,9 +92,10 @@ html {
   font-family: sans-serif;
 }
 
-.ahoj {
-  text-align: center;
-  font-size: 1.5rem;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   max-width: 30rem;
